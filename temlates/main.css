@@ -1,0 +1,23 @@
+.h1s{
+    color:green;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+}
+.PressF{
+    background-color: rgb(230, 245, 234);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+    padding: 20px 40px 20px 40px;
+    margin: 20px 40px 20px 40px;
+}
+h2{
+    color:blue
+}

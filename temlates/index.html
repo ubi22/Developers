@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>птицы</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="h1s">
+        Мегапарсер
+    </h1>
+        <p id="myParagraph"></p>
+        <h2>
+
+        </h2>
+            <h3>
+                Информация о системе
+            </h3>
+                <p>
+                 Этот парсер умеет получать информацию но зачем
+                </p>
+                <p>
+                    Можно задать параметры поиска
+                </p>
+    <a  href = "form.html">  тык   </a>
+    <p class="PressF">
+        Два друга беседуют о своей семейной жизни.<br>
+
+        – Вот уже пятнадцать лет, как я женат, – говорит один. – Вначале я так ее прижимал и целовал, что она боялась, как бы я ее не задушил.<br>
+
+        – А теперь? – спрашивает приятель. <br>
+
+        – Видно, дело к этому и идет! <br>
+    </p>
+    <button onclick="fun()">+</button>
+</body>
+<script>
+    var myVariable = "Привет, мир!";
+    var myParagraph = document.getElementById("myParagraph");
+    myParagraph.innerHTML = myVariable;
+    function fun() {
+         myVariable = "Не трогай кнопку"
+         var myParagraph = document.getElementById("myParagraph");
+        myParagraph.innerHTML = myVariable;
+    }
+</script>
+</html>
